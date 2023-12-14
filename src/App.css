@@ -1,0 +1,168 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+#main {
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+#left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./images/bg-main-desktop.png);
+  width: 40%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  width: 60px;
+  margin: 20px;
+}
+
+#cvcback {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+#ccnumber {
+  font-size: x-large;
+  color: white;
+  margin: 20px;
+}
+
+.text4 {
+  font-size: 1%;
+  margin-left: 20px;
+  color: white;
+}
+
+#monthyear {
+  margin-left: 130px;
+}
+
+
+#right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+/* background-color: white; */
+  width: 60%;
+  height: 100vw;
+}
+
+#ccfront {
+  background-image: url(./images/front.png);
+  margin-left: 150px;
+  width: 295px;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+#ccback {
+  background-image: url(./images/back.png);
+  margin-left: 250px;
+  width: 295px;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.text {
+  font-size: 1%;
+  margin: 5px;
+  color: rgb(39, 1, 66);
+}
+
+.input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.348);
+  margin: 5px;
+}
+
+.input2 {
+  border: 1px solid rgba(128, 128, 128, 0.348);
+  border-radius: 5px;
+  padding: 5px;
+  width: 45px;
+  margin: 5px;
+}
+
+#form {
+  margin-left: 250px;
+  /* margin-bottom: 50px; */
+}
+
+.flex {
+  display: flex;
+
+
+}
+
+#input3 {
+  border: 1px solid rgba(128, 128, 128, 0.348);
+  border-radius: 5px;
+  padding: 5px;
+  width: 66px;
+  margin: 5px;
+}
+
+#btn {
+  margin: 5px;
+  color: white;
+  padding: 8px;
+  border: none;
+  background-color: rgb(39, 1, 66);
+  border-radius: 5px;
+  width: 213px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#header {
+  margin: 5px;
+  color: rgb(39, 1, 66);
+}
+
+#img2 {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#main2 {
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.text3 {
+  margin: 5px;
+  color: red;
+  font-size: 1%;
+}
+
+.flex4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
